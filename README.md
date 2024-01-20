@@ -12,7 +12,7 @@
 
 Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=55_TZK2eL3Y)
 
-## :rocket: Tecnologias utilizaas
+## :rocket: Tecnologias utilizadas
 
 * Java 21
 * Spring Boot
