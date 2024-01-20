@@ -12,7 +12,6 @@ public class SqsConfig {
 
     @Bean
     public SqsAsyncClient sqsAsyncClient() {
-
         return SqsAsyncClient.builder()
                 .endpointOverride(URI.create("http://localhost:4566"))
                 .region(Region.SA_EAST_1)
