@@ -16,7 +16,10 @@ Para um maior entendimento do código deste repositório, [assista nosso vídeo 
 
 * Java 21
 * Spring Boot
-* Design Pattern Prototype
+* Spring Cloud AWS
+* AWS
+* SQS (Simple Queue Service)
+* Localstack
 
 :mag: Baixe o projeto e teste você mesmo na prática.
 
