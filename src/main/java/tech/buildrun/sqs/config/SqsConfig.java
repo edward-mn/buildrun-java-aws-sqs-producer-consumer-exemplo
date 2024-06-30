@@ -2,6 +2,7 @@ package tech.buildrun.sqs.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import software.amazon.awssdk.auth.credentials.AnonymousCredentialsProvider;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.sqs.SqsAsyncClient;
 
@@ -14,6 +15,7 @@ public class SqsConfig {
     public SqsAsyncClient sqsAsyncClient() {
         return SqsAsyncClient.builder()
                 .endpointOverride(URI.create("http://localhost:4566"))
+                .credentialsProvider(AnonymousCredentialsProvider.create())
                 .region(Region.SA_EAST_1)
                 .build();
     }

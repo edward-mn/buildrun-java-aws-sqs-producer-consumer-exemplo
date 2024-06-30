@@ -20,6 +20,6 @@ public class SqsApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		var SQS = "https://localhost.localstack.cloud:4566/000000000000/minha-fila";
-		sqsTemplate.send(SQS, new MyMessage("meu valor de start"));
+		sqsTemplate.send(SQS, new MyMessage("My automatic start message"));
 	}
 }
